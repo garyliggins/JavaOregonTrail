@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.kenzie.library</OriginalElement>
+  <nodes>
+    <node x="506.0" y="180.5">com.kenzie.library.BookNotAvailableException</node>
+    <node x="299.875" y="497.0">com.kenzie.library.Library</node>
+    <node x="0.0" y="0.0">com.kenzie.library.Book</node>
+    <node x="968.0000000000001" y="180.5">com.kenzie.library.BookNotFoundException</node>
+    <node x="331.2916666666667" y="932.0">com.kenzie.library.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.kenzie.library.Main" target="com.kenzie.library.Library">
+      <point x="-32.25" y="-61.0" />
+      <point x="492.5416666666667" y="892.0" />
+      <point x="410.375" y="892.0" />
+      <point x="-110.5" y="187.5" />
+    </edge>
+    <edge source="com.kenzie.library.Library" target="com.kenzie.library.Book">
+      <point x="-165.75" y="-187.5" />
+      <point x="355.125" y="477.0" />
+      <point x="303.75" y="477.0" />
+      <point x="60.75" y="223.5" />
+    </edge>
+    <edge source="com.kenzie.library.Library" target="com.kenzie.library.BookNotAvailableException">
+      <point x="55.25" y="-187.5" />
+      <point x="576.125" y="477.0" />
+      <point x="616.5" y="477.0" />
+      <point x="-110.5" y="43.0" />
+    </edge>
+    <edge source="com.kenzie.library.Library" target="com.kenzie.library.BookNotFoundException">
+      <point x="165.75" y="-187.5" />
+      <point x="686.625" y="477.0" />
+      <point x="1067.5" y="477.0" />
+      <point x="-99.5" y="43.0" />
+    </edge>
+    <edge source="com.kenzie.library.Main" target="com.kenzie.library.Book">
+      <point x="-161.25" y="-61.0" />
+      <point x="363.5416666666667" y="912.0" />
+      <point x="170.59722222222229" y="912.0" />
+      <point x="170.59722222222229" y="477.0" />
+      <point x="60.75" y="477.0" />
+      <point x="-182.25" y="223.5" />
+    </edge>
+    <edge source="com.kenzie.library.Main" target="com.kenzie.library.BookNotAvailableException">
+      <point x="96.75" y="-61.0" />
+      <point x="621.5416666666667" y="902.0" />
+      <point x="814.6527777777778" y="902.0" />
+      <point x="814.6527777777778" y="467.0" />
+      <point x="837.5" y="467.0" />
+      <point x="110.5" y="43.0" />
+    </edge>
+    <edge source="com.kenzie.library.Main" target="com.kenzie.library.BookNotFoundException">
+      <point x="161.25" y="-61.0" />
+      <point x="686.0416666666667" y="912.0" />
+      <point x="1266.5" y="912.0" />
+      <point x="99.5" y="43.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.787709497206704" x="683.0" y="526.9999999999999" />
+  <SelectedNodes>
+    <node>com.kenzie.library.BookNotAvailableException</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
