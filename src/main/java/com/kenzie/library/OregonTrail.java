@@ -8,7 +8,20 @@ import java.lang.reflect.*;
 //helper methods for running Oregon Trail
 public class OregonTrail {
 
+    static int daysTravelled;
+    static int milesTravelled;
 
+    final int TOTAL_MILES = 1600;
+    final int MILES_PER_DAY = 20;
+    final int FOOD_EXCHANGE = 2;
+    final int MAX_DAYS = 100;
+    final int WAGON_SIZE = 4;
+    final int HUNT_DAYS = 4;
+    final int NUM_TRAVELERS = 2;
+    final int NUM_HUNTERS = 1;
+    final int NUM_DOCTORS = 1;
+
+    final static Health.TravelerHealth currentHealth = Health.TravelerHealth.HIGH;
     //helper method - allow runtime access of static variable names
     static int getStaticFieldValue(String path) throws NoSuchElementException {
         try {

@@ -6,7 +6,25 @@ import java.util.NoSuchElementException;
 
 public class Main {
     /*** Declare Statics and Constants Here ***/
-    
+    static int daysTravelled;
+    static int milesTravelled;
+
+    final  static int TOTAL_MILES = 1600;
+    final  static int MILES_PER_DAY = 20;
+    final  static int FOOD_EXCHANGE = 2;
+    final  static int MAX_DAYS = 100;
+    final static int WAGON_SIZE = 4;
+    final  static int HUNT_DAYS = 4;
+    final  static int NUM_TRAVELERS = 2;
+    final  static int NUM_HUNTERS = 1;
+    final  static int NUM_DOCTORS = 1;
+
+    final static Health.TravelerHealth currentHealth = Health.TravelerHealth.HIGH;
+    /*
+    * One static variable declaration in Main.java
+One if-else statement that uses the Enum
+    * */
+
 
     /*** DO NOT CHANGE THE CODE BELOW THIS LINE ***/
     public static void main (String[] args) {

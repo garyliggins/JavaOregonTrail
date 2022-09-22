@@ -223,6 +223,8 @@ public class WagonTest {
 
 		}
 		catch(Exception e){
+
+			e.printStackTrace();
 			System.out.println(e.getMessage());
 			fail("Wagon class must be defined with loadWagon() and getAvailableSeatCount method");
 		}
